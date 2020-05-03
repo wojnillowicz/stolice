@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stolice.css">
+    <title>Zgadnij stolicę!</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Zgadnij stolicę!</h1>
+    <h3 id="country">Polska</h3>
+    <input id="guess" type="text" placeholder="wpisz stolicę"><br><br>
+    <button onclick="fn1()" id="button" type="button" value="submit">Odpowiedz</button>
+    <h2 id="correctOrNot"> </h2>
+
+    <table>
+      <tr>
+        <td>Suma: </td>
+        <td id="totalPoints">0</td>
+        <td> punktów</td>
+      </tr>
+      <tr>
+        <td>Twoja średnia: </td>
+        <td id="average">100</td>
+        <td>%</td>
+      </tr>
+    </table>
+
+    <p></p>
+    <p></p>
+
+    <table>
+      <tr>
+        <td>Twoja odpowiedź: </td>
+        <td id="showingUserAnswer"> </td>
+      </tr>
+      <tr>
+        <td>Prawidłowa odpowiedź: </td>
+        <td id="showingCorrectAnswer"> </td>
+      </tr>
+    </table>
+
+  </body>
+  <script type="text/javascript" src="stolice.js"></script>
+</html>

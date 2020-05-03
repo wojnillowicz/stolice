@@ -1,0 +1,33 @@
+body{
+  background: url(https://www.manufacturingglobal.com/sites/default/files/styles/slider_detail/public/topic/image/GettyImages-949615220_4.jpg?itok=S0HgeS1E);
+  color: white;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Rubik', sans-serif;
+}
+
+table{
+  align-self: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white; text-shadow: black 0.2em 0.2em 0.4em;
+}
+
+h2{
+  color: white; text-shadow: black 0.4em 0.4em 0.4em;
+}
+
+h3{
+  color: white; text-shadow: black 0.2em 0.2em 0.4em;
+}
+
+#title{
+  font-size:  2em;
+}
