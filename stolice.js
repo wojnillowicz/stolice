@@ -71,6 +71,7 @@ function fn1(){
   userAnswer = capitalizeFirstLetter(userAnswer);
   if (userAnswer == correctAnswer) {
     document.getElementById('correctOrNot').innerHTML = "Dobrze!";
+    document.getElementById('fanfary').src = 'https://i.pinimg.com/originals/ab/83/3d/ab833dc843c498beb2908b9c3247e843.gif'
     tot = tot + 1;
     document.getElementById('totalPoints').innerHTML = tot;
   }else {
