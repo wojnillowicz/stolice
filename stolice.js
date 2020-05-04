@@ -47,8 +47,8 @@ var europeCapitals = {Albania:'Tirana',
                       WielkaBrytania: 'Londyn',
                       Watykan: 'Watykan'}
 
-var europeCountries = ['Albania', 'Andora', 'Austria', 'Bialorus', 'Belgia', 'BosniaHerzegowina', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy', 'Kosovo', 'Latvia',
-'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malta', 'Moldova', 'Monaco', 'Czarnogora', 'Netherlands', 'Macedonia', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia', 'SanMarino', 'Serbia', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Turkey', 'Ukraine', 'UnitedKingdom', 'VaticanCityState']
+var europeCountries = ['Albania', 'Andora', 'Austria', 'Bialorus', 'Belgia', 'BosniaHerzegowina', 'Bulgaria', 'Chorwacja', 'Cypr', 'Czechy', 'Dania', 'Estonia', 'Finlandia', 'Francja', 'Gruzja', 'Niemcy', 'Grecja', 'Wegry', 'Islandia', 'Irlandia', 'Wlochy', 'Kosowo', 'Lotwa',
+'Liechtenstein', 'Litwa', 'Luksemburg', 'Malta', 'Moldawia', 'Monako', 'Czarnogora', 'Holandia', 'Macedonia', 'Norwegia', 'Polska', 'Portugalia', 'Rumunia', 'Rosja', 'SanMarino', 'Serbia', 'Slowacja', 'Slowenia', 'Hiszpania', 'Szwecja', 'Szwajcaria', 'Turcja', 'Ukraina', 'WielkaBrytania', 'Watykan']
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
