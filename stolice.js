@@ -77,7 +77,6 @@ function fn1(){
   }else {
     document.getElementById('correctOrNot').innerHTML = "Źle...";
     document.getElementById('fanfary').src = 'https://www.prosoundweb.com/images/uploads/make-it-stop_091613.jpg'
-
   }
   //changing the site for a new try
   document.getElementById('guess').value = "";
